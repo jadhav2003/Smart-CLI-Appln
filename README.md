@@ -1,77 +1,88 @@
-# Student Result Management System (CLI)
+📘 Student Result Management System (CLI)
+📌 Overview
 
-## 📌 Objective
-This project is a menu-driven CLI application built using Python.
-It demonstrates OOP, file handling, and exception handling.
+The Student Result Management System is a menu-driven Command Line Interface (CLI) application developed using Python. The project demonstrates core programming concepts such as Object-Oriented Programming (OOP), file handling using JSON, and exception handling.
 
-## 🚀 Features
-- Add student
-- Calculate grade automatically
-- Search student by roll number
-- Store data in JSON file
-- Menu-driven CLI interface
+This system allows users to manage student academic records efficiently through a simple terminal-based interface.
 
-## 🛠 Technologies Used
-- Python
-- JSON File Handling
-- OOP Concepts
+🚀 Features
 
-## ▶ How to Run
-```bash
+Add new student records
+
+Automatically calculate grades based on average marks
+
+Search students by roll number
+
+Display all stored student records
+
+Persistent data storage using JSON file
+
+Input validation using exception handling
+
+🛠️ Technologies Used
+
+Python 3
+
+Object-Oriented Programming (Classes & Methods)
+
+JSON File Handling
+
+Exception Handling
+
+Git & GitHub for version control
+
+🧠 System Design
+
+The application is structured using two main classes:
+
+1️⃣ Student Class
+
+Stores student details (roll number, name, marks)
+
+Calculates grade based on average marks
+
+Converts student data into dictionary format for storage
+
+2️⃣ StudentManager Class
+
+Handles file operations (load & save)
+
+Manages student records
+
+Implements add, search, and display functionalities
+
+Student data is stored in a students.json file to ensure persistent storage across program executions.
+
+▶️ How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/jadhav2003/Smart-CLI-Appln.git
+
+Navigate to the project folder:
+
+cd Smart-CLI-Appln
+
+Run the program:
+
 python main.py
+📂 Project Structure
+Smart-CLI-Appln/
+│── main.py
+│── students.json
+│── README.md
+│── requirements.txt
+│── .gitignore
+🎯 Learning Outcomes
 
----
+Through this project, the following concepts were implemented:
 
-# 🔹 STEP 6: Push to GitHub (Very Important)
+Practical implementation of OOP in Python
 
-## 1️⃣ Initialize Git
+Working with structured data using JSON
 
-In VS Code terminal:
+File read/write operations
 
----
+Handling runtime errors using exceptions
 
-## 2️⃣ Create Repository on GitHub
-
-Go to:
-👉 https://github.com  
-Click **New Repository**
-
-Name it:
-
-Click Create
-
----
-
-## 3️⃣ Connect Local to GitHub
-
-GitHub will show commands. Copy and run:
-
-Enter GitHub username/password or token if asked.
-
----
-
-# 🔹 STEP 7: Verify
-
-Go to GitHub → Refresh  
-You should see:
-
-✅ Done!
-
----
-
-# 🔹 For Submission Include:
-
-1. main.py file  
-2. Screenshot of running program  
-3. Short explanation (you can use below)
-
----
-
-# 🔹 Short Explanation for Submission
-
-You can submit this:
-
-> This project is a menu-driven CLI Student Result Management System developed using Python. It implements OOP concepts through Student and StudentManager classes. File handling is used to store student data in a JSON file. Exception handling ensures proper input validation. The system allows adding students, calculating grades, searching records, and displaying all students.
-
----
-
+Using Git for version control and GitHub for project hosting

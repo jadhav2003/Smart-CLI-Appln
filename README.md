@@ -5,19 +5,21 @@ The Student Result Management System is a menu-driven Command Line Interface (CL
 
 This system allows users to manage student academic records efficiently through a simple terminal-based interface.
 
+---
 🚀 Features
 
-Add new student records
+1. Add new student records
 
-Automatically calculate grades based on average marks
+2. Automatically calculate grades based on average marks
 
-Search students by roll number
+3. Search students by roll number
 
-Display all stored student records
+4. Display all stored student records
 
-Persistent data storage using JSON file
+5. Persistent data storage using JSON file
 
-Input validation using exception handling
+6. Input validation using exception handling
+---
 
 🛠️ Technologies Used
 
@@ -30,6 +32,7 @@ JSON File Handling
 Exception Handling
 
 Git & GitHub for version control
+---
 
 🧠 System Design
 
@@ -42,6 +45,7 @@ Stores student details (roll number, name, marks)
 Calculates grade based on average marks
 
 Converts student data into dictionary format for storage
+---
 
 2️⃣ StudentManager Class
 
@@ -52,6 +56,7 @@ Manages student records
 Implements add, search, and display functionalities
 
 Student data is stored in a students.json file to ensure persistent storage across program executions.
+---
 
 ▶️ How to Run the Project
 
@@ -62,7 +67,7 @@ git clone https://github.com/jadhav2003/Smart-CLI-Appln.git
 Navigate to the project folder:
 
 cd Smart-CLI-Appln
-
+---
 Run the program:
 
 python main.py
